@@ -9,6 +9,7 @@
   "author": "Joseph Dickens",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^4.1.2",
     "vorpal": "^1.12.0"
   }
 }
