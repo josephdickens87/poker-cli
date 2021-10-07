@@ -18,10 +18,10 @@ vorpal
   .action(function(args, _cb) {
     holeCards = args.holeCards;
     position = args.position
-    // getPreflopStrategy(this)
-    getBoard(this)
+    getPreflopStrategy(this, holeCards, position)
+    // getBoard(this)
   });
 
-// update position to be 0-5 (all positions in 6 handed), correleate strategy for IP and OOP based on position of 2 players  
+// should positions be 1-4, sb, bb? or just numbers?
 // todo finish preflop strategy
 // todo finish postflop strategy after  
